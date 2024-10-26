@@ -8,10 +8,6 @@ public class Main {
         System.out.println(numberToWords(1010));
     }
 
-
-
-
-
     public static boolean isPalindrome(int sayi){
         String [] chars = Integer.toString(Math.abs(sayi)).split("");
         String reversed = "";
